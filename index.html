@@ -3,66 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A showcase of web development featuring cute pets, styling examples, and interactive elements">
-    <title>Pet Lovers Hub</title>
+    <meta name="description" content="A simple website about cats">
+    <title>Cat Website</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
+        /* Requirement: CSS selector for HTML tag */
+        p {
+            color: blue;
+        }
+
+        /* Requirement: Create a class and style it */
+        .cat-text {
+            font-size: 20px;
+            color: purple;
+        }
+
+        /* Requirement: Create an ID and style it */
+        #special-section {
+            background-color: lightgray;
             padding: 20px;
-            background-color: #f0f0f0;
         }
 
-        .content-section {
-            background-color: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        #featured-section {
-            background-color: #e6f3ff;
-            border: 2px solid #3498db;
-            padding: 25px;
-            margin-top: 30px;
-        }
-
-        img {
-            max-width: 400px;
-            border-radius: 10px;
-            margin: 10px 0;
-        }
-
-        a {
-            color: #3498db;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
+        /* Requirement: Change color of link on hover */
         a:hover {
-            color: #e74c3c;
+            color: red;
         }
 
-        .highlight-text {
-            color: #2c3e50;
-            font-weight: bold;
-            margin: 10px 0;
+        /* Requirement: Change two box model properties */
+        img {
+            margin: 20px;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="content-section">
-        <h1 class="highlight-text">Welcome to Pet Lovers Hub</h1>
-        <p class="highlight-text">Your source for adorable pet content!</p>
-        <p>Here's a cute placeholder image of what could be your next pet:</p>
-        <img src="/api/placeholder/400/300" alt="Cute pet placeholder">
+    <!-- Requirement: Use div to create two sections -->
+    <div>
+        <h1 class="cat-text">Welcome to Cat Website</h1>
+        <p class="cat-text">Cats are awesome!</p>
     </div>
 
-    <div id="featured-section">
-        <h2>Featured Content</h2>
-        <p>Want to learn more about pets? Visit our partner website:</p>
-        <a href="https://www.aspca.org">Visit ASPCA</a>
+    <div id="special-section">
+        <!-- Requirement: Include an image -->
+        <img src="/api/placeholder/400/300" alt="Cat image">
+        <!-- Requirement: Link to another website -->
+        <p><a href="https://www.aspca.org">Visit ASPCA</a></p>
     </div>
 </body>
 </html>
