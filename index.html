@@ -5,47 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A simple website about cats">
     <title>Cat Website</title>
-    <style>
-        /* Requirement: CSS selector for HTML tag */
-        p {
-            color: blue;
-        }
-
-        /* Requirement: Create a class and style it */
-        .cat-text {
-            font-size: 20px;
-            color: purple;
-        }
-
-        /* Requirement: Create an ID and style it */
-        #special-section {
-            background-color: lightgray;
-            padding: 20px;
-        }
-
-        /* Requirement: Change color of link on hover */
-        a:hover {
-            color: red;
-        }
-
-        /* Requirement: Change two box model properties */
-        img {
-            margin: 20px;
-            padding: 10px;
-        }
-    </style>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <!-- Requirement: Use div to create two sections -->
     <div>
         <h1 class="cat-text">Welcome to Cat Website</h1>
         <p class="cat-text">Cats are awesome!</p>
     </div>
 
     <div id="special-section">
-        <!-- Requirement: Include an image -->
         <img src="/api/placeholder/400/300" alt="Cat image">
-        <!-- Requirement: Link to another website -->
         <p><a href="https://www.aspca.org">Visit ASPCA</a></p>
     </div>
 </body>

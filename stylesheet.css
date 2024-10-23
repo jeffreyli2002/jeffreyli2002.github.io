@@ -1,0 +1,27 @@
+/* CSS selector for HTML tag */
+p {
+    color: blue;
+}
+
+/* Create a class and style it */
+.cat-text {
+    font-size: 20px;
+    color: purple;
+}
+
+/* Create an ID and style it */
+#special-section {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* Change color of link on hover */
+a:hover {
+    color: red;
+}
+
+/* Change two box model properties */
+img {
+    margin: 20px;
+    padding: 10px;
+}
